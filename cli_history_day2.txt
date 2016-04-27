@@ -1,0 +1,137 @@
+rm -rf special-broccoli/
+git clone git@github.com:githubschool/special-broccoli.git
+cd special-broccoli/
+git status
+git checkout -b pm-hello-mundo
+git branch
+touch hello_mundo.hh
+git status
+git add .
+git status
+git commit
+ls
+ls -al
+cd
+git status
+ls
+cd special-broccoli/
+git status
+ls -al
+git checkout master 
+ls -al
+git checkout pm-hello-mundo 
+git log
+git log -3
+sublime hello_mundo.hh 
+git status
+git diff
+git add hello_mundo.hh
+git status
+git diff
+git diff --staged
+git status
+git diff
+git diff --staged 
+git diff pm-hello-mundo 
+git diff HEAD 
+cat .git/HEAD 
+git status
+git commit -a
+git push -u origin pm-hello-mundo 
+git branch -a
+git pull
+git branch -a
+git checkout master 
+git fetch 
+git status
+git merge origin/master 
+git branch -a
+git checkout jd-hello-mundo 
+git checkout pm-hello-mundo 
+git fetch 
+git merge origin/master 
+git status
+sublime hello_mundo.hh 
+git status
+git add hello_mundo.hh
+git status
+git commit
+git push
+git checkout 
+git checkout master 
+git pull
+git branch -a
+git branch --merged master
+git branch -d pm-hello-mundo 
+git pull
+git checkout -b add-ignore
+sublime .gitignore
+git status
+touch dummy.o
+git status
+git status
+git log -- README.md
+git log -- hello_mundo.hh
+git log --oneline -10
+git diff 0caf583 c596b7e
+git diff 0caf583 c596b7e --stat
+git status
+rm .gitignore 
+git checkout -b demo-undoing-things master 
+echo 'lorem ipsum' >> README.md 
+git status
+rm dummy.o 
+git commit -am"made quick fix"
+git log --oneline -3
+git revert 510ec6a
+sublime README.md 
+echo 'More Tips' >> README.md 
+git diff
+git commit -am"add more better helpful stuff"
+git log -1
+echo 'you can use the compare view on github to view diffs' >> README.md 
+git status
+git add README.md
+git commit --amend 
+git log -1
+echo 'line one' >> README.md 
+git commit -am "add line one"
+echo 'line two' >> README.md 
+git commit -am "add line two"
+git log --oneline --decorate -5
+git reset --soft 510ec6a
+git log --oneline --decorate -5
+git status
+git diff --staged 
+echo 'line three' >> README.md 
+git status
+git add README.md
+git commit -m"make all changes at once, after soft reset"
+git log --oneline --decorate -5
+git reset 510ec6a
+git status
+git diff
+echo 'line added after mixed reset' >> README.md 
+git status
+git commit -am"demo using reset mixed"
+git log --oneline --decorate -5
+git reset --hard 510ec6a
+git status
+git reflog 
+git reset --hard e92b03a
+git log --oneline --decorate -5
+git st
+sublime README.md 
+git log --oneline --reverse 
+git checkout 62f04f0 -- README.md
+git status
+git reset README.md
+git status
+git checkout -- README.md
+git tag demo-tag demo-undoing-things 
+git log --decorate --oneline -2
+git tag -a -m "hey there" a-tag demo-undoing-things 
+git log --decorate --oneline -2
+git tags
+git tag
+git push --tags 
