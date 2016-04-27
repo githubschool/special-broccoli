@@ -1,0 +1,1008 @@
+githubschool/special-broccoli
+demo and practice repo
+
+
+
+People  Repo info
+ halfaro1 githubteacher patrickmckenna ds161175 lkirvay vvora samitintuit thomp812 rsomcio navinjoy phuthi rlaflin kp3370 sierralewisreno JosephineGitHub rayb354 garyl553 SurendraJambe andrewchanintuit
+ADD  DETAILS
+Activity
+14:55
+patrickmckenna on a-tag
+made quick fix Revert "made quick fix" This r… add more better helpful stuff and 2 more (compare)
+14:55
+patrickmckenna on demo-tag
+made quick fix Revert "made quick fix" This r… add more better helpful stuff and 2 more (compare)
+14:05
+garyl553 on gl-d2
+more changes (compare)
+13:40
+ds161175 on DSinghR5
+(compare)
+13:33
+githubteacher on pm-hello-mundo
+(compare)
+13:33
+githubteacher on master
+practice workflow end to end demo diff syntax, explain graph… Merge remote-tracking branch 'o… and 1 more (compare)
+13:33
+githubteacher closed #36
+13:33
+patrickmckenna on pm-hello-mundo
+Practice end-to-end workflow adding Day2 practice file a Commit from Day 2 and 38 more (compare)
+13:33
+patrickmckenna synchronize #36
+13:25
+navinjoy on nkj.hello-world
+few changes (compare)
+13:16
+navinjoy closed #42
+13:16
+navinjoy on master
+a Commit from Day 2 Merge pull request #42 from git… (compare)
+13:16
+andrewchanintuit on achan-hello-mundo
+(compare)
+13:16
+csarquilla on cs-hello2
+(compare)
+13:16
+vvora on vv-hello-mundo
+(compare)
+13:16
+samitintuit on sr35-hello-there
+(compare)
+13:16
+samitintuit on master
+Training Practice only Final commit to the practice fi… Merge pull request #41 from git… (compare)
+13:16
+githubteacher on top-hello-monde
+(compare)
+13:16
+samitintuit closed #41
+13:16
+lkirvay on lk-hello
+(compare)
+ Gitter Support
+
+Hector Alfaro @halfaro1 Apr 26 12:18
+If you miss anything at all, please feel free to let me know here and I can recap.
+Please make sure you've commented on githubteacher/special-broccoli#2 to be added to our class repository as a collaborator.
+
+navinjoy @navinjoy Apr 26 12:21
+Hector..i dont see collaborator next to my name
+
+Hector Alfaro @halfaro1 Apr 26 12:21
+You do now @navinjoy :)
+
+navinjoy @navinjoy Apr 26 12:21
+thanks :)
+
+kp3370 @kp3370 Apr 26 12:23
+not a collaborator...
+
+Ray Somcio @rsomcio Apr 26 12:24
+will you guys have the slides or schematics available for download?
+
+Hector Alfaro @halfaro1 Apr 26 12:24
+@kp3370 I see that you opened a new issue. Comment on this issue instead: githubteacher/special-broccoli#2
+@rsomcio Patrick isn't using a slide deck, but the graphics he's using are from the open-source book Pro Git
+
+Ray Somcio @rsomcio Apr 26 12:26
+ok cool. tx
+
+Hector Alfaro @halfaro1 Apr 26 12:26
+:+1:
+
+kp3370 @kp3370 Apr 26 12:26
+@halfaro1 done
+
+vvora @vvora Apr 26 12:27
+is it ok if I have git 1.9.5 version for this class?
+
+Hector Alfaro @halfaro1 Apr 26 12:28
+@kp3370 I still see a new Issue. You'll need to go directly to this web page and add a comment to the existing issue (you can copy and paste it): https://github.com/githubteacher/special-broccoli/issues/2
+@vvora version 1.9+ is :+1:
+
+rlaflin @rlaflin Apr 26 12:29
+How do we test that the global setting is good?
+
+kp3370 @kp3370 Apr 26 12:30
+@halfaro1 ok, so i've tried both ...#2 and ... /2
+
+Hector Alfaro @halfaro1 Apr 26 12:30
+@rlaflin the command git config --list will show you all your config settings
+
+kp3370 @kp3370 Apr 26 12:31
+@halfaro1 once there i click on 'New issue'
+
+sierralewisreno @sierralewisreno Apr 26 12:31
+where do i type the commands to set the text editor?
+
+kp3370 @kp3370 Apr 26 12:31
+@halfaro1 and it takes me here: https://github.com/githubteacher/special-broccoli/issues/new
+
+Hector Alfaro @halfaro1 Apr 26 12:32
+Screen Shot 2016-04-26 at 12.31.11 PM.png
+@kp3370 see the screenshot :point_up:
+don't create a new issue, but go directly to the last issue on the list and comment there
+
+kp3370 @kp3370 Apr 26 12:32
+@halfaro1 ah, just comment on the issue...
+
+Hector Alfaro @halfaro1 Apr 26 12:33
+@sierralewisreno are you on Windows? if you installed GitHub Desktop for Windows, you can open the Git Shell from your program list
+@kp3370 perfect I added you :balloon:
+
+sierralewisreno @sierralewisreno Apr 26 12:36
+need to have the config info back on screen
+i am going to fall behind
+
+Hector Alfaro @halfaro1 Apr 26 12:37
+@sierralewisreno let me get a recap for you:
+
+sierralewisreno @sierralewisreno Apr 26 12:37
+thanks
+
+Hector Alfaro @halfaro1 Apr 26 12:38
+Review of configurations:
+We determined our git version by running git --version... version 1.9+ is recommended
+If you need to, you can install it here
+If you don't already have GitHub Desktop, you can install it here
+Clone the repository by running git clone https://github.com/githubteacher/github-for-developers-2016-04.git (Make sure you are in the directory where you want the repository to be when you run this command)
+Set up your Git configurations by running these commands:
+git config --global user.name "your name"
+git config --global user.email <youremail@email.com>
+git config --global core.editor <editor> (For more help associating your text editor with Git, read this GitHub Help article.
+git config --global push.default simple
+Windows ONLY: git config --global core.autocrlf true
+Mac and Linux ONLY: git config --global core.autocrlf input
+Check your configurations by running git config --list
+
+rlaflin @rlaflin Apr 26 12:38
+Whats the diff between download zip and clone?
+
+sierralewisreno @sierralewisreno Apr 26 12:39
+what was the name for the editor when using atom?
+this is brutal. i am behind and every moment falling further behind because i am trying to do intial config
+
+Hector Alfaro @halfaro1 Apr 26 12:40
+@rlaflin great question! A clone is a simple way to grab a copy of a git repository. You can also download the repository in a ZIP format but it takes a few extra steps to unzip it and get it set up on your computer.
+
+kp3370 @kp3370 Apr 26 12:40
+what was the default fetch config command that was used?
+it's not in your list above...
+
+Hector Alfaro @halfaro1 Apr 26 12:41
+@sierralewisreno I'm sorry to hear it's moving a little fast :worried: It may be more helpful to sit back and listen and use the recording to follow along so you can pause and try things on your own.
+@sierralewisreno the name of the editor would be atom
+
+kp3370 @kp3370 Apr 26 12:43
+@halfaro1 what was the default fetch config command that was used?
+@halfaro1 something about fetch.prune or something...
+
+Hector Alfaro @halfaro1 Apr 26 12:44
+@kp3370 it's only used if you're on a version of git under 2.0
+@kp3370 I'll ask Patrick to cover it again at our next break if you're OK holding on it
+
+kp3370 @kp3370 Apr 26 12:44
+np
+
+Hector Alfaro @halfaro1 Apr 26 12:53
+To recap where we are so far:
+We looked at a high-level overview of GitHub Flow
+We cloned the class repository using git clone <url>
+We created a new branch using git branch <your-unique-branch-name>
+We checked out to our new branch using git checkout <your-unique-branch-name>
+We verified that our branch was created using git branch --all
+The slides Patrick is referencing are here: https://training.github.com/kit/courses/github-for-developers.html
+
+lkirvay @lkirvay Apr 26 12:59
+not asking the right question
+pace is ok but not time for doing the commands
+because the commands are new to us
+
+sierralewisreno @sierralewisreno Apr 26 13:00
+correct, pace of instruction is fine. but too fast during configuration... so i am unable to do anything since
+
+lkirvay @lkirvay Apr 26 13:00
+and why is it all command line anyway?
+
+rayb354 @rayb354 Apr 26 13:02
+My understanding is that there's 2 ways for a file to get into staging-- (1) do a "git add" on an untracked file, or (2) edit a tracked file. Am I correct?
+
+Hector Alfaro @halfaro1 Apr 26 13:04
+Thanks for the feedback @lkirvay and @sierralewisreno. Patrick will recap some things when we return from break including config settings. I would like to encourage you to follow along if you're able to, but also want to invite you to sit back and listen and rely on the recording to follow along on the command line.
+@lkirvay this class (GitHub for Developers) is taught on the command line as we've found most developers prefer this method. We're happy to chat with you about our desktop client which allows you to perform much of the same steps through a GUI
+@lkirvay but for the purposes of this class we will be sticking to the command line
+
+rayb354 @rayb354 Apr 26 13:07
+@halfaro1 My understanding is that there's 2 ways for a file to get into staging-- (1) do a "git add" on an untracked file, or (2) edit a tracked file. Am I correct?
+
+Hector Alfaro @halfaro1 Apr 26 13:07
+@rayb354 sorry I did see your question getting to it now :)
+@rayb354 (1) is correct, but when you edit a tracked file it becomes unstaged again
+
+rayb354 @rayb354 Apr 26 13:09
+@halfaro1 So how do I get an edited file to stage again?
+
+thomp812 @thomp812 Apr 26 13:09
+In support of @lkirvay's question re: command line vs. UI. A lot of us have become used to UI tools like perforce or IDE integrations such as IntelliJ - jumping back to command line seems a bit of a reverse step to some of us
+
+navinjoy @navinjoy Apr 26 13:10
+do we need to clone github-for-developers-2016-04.git or special-brocolli?
+what is this command for
+git config --global push.default simple
+
+Hector Alfaro @halfaro1 Apr 26 13:11
+@rayb354 git add <filename> or git add -A to add any files that have been edited in the current directory
+@thomp812 and @lkirvay understood. One of the things I :heart: about GitHub is our ability to play nice with many IDEs and tools. For the purposes of this class, we are focusing on the concepts behind git so you have the freedom to apply these concepts to your preferred tool or graphical client
+@thomp812 and @lkirvay I'll make sure to note your feedback for future sessions and perhaps ask Patrick to cover some of those integrations near the end, would that be OK?
+
+rayb354 @rayb354 Apr 26 13:14
+@halfaro1 What if the file is already in the repository and I edit it? That file is already staged, right? I don't need to do a "git add" in that file.
+
+Hector Alfaro @halfaro1 Apr 26 13:14
+@navinjoy you'll need to clone the special-broccoli repository
+@rayb354 if you edit a file it becomes unstaged, so you'll need to add it again via git add
+
+JosephineGitHub @JosephineGitHub Apr 26 13:19
+@halfaro1 are we reviewing what we had talked about earlier? or am i viewing a recording of the earlier session?
+
+Hector Alfaro @halfaro1 Apr 26 13:20
+@JosephineGitHub Patrick is spending a little time reviewing since some participants felt we were moving too quickly.
+
+JosephineGitHub @JosephineGitHub Apr 26 13:20
+are we talking about branching again?
+oh ok. thx.
+
+Hector Alfaro @halfaro1 Apr 26 13:20
+@JosephineGitHub yes, as a recap :)
+
+JosephineGitHub @JosephineGitHub Apr 26 13:20
+thought i am having a deja vu.
+
+garyl553 @garyl553 Apr 26 13:23
+how do we undo the commit?
+
+lkirvay @lkirvay Apr 26 13:25
+what if we had some untracked files when we did the switching of branch?
+
+Hector Alfaro @halfaro1 Apr 26 13:25
+@garyl553 that's a great question. It is difficult to undo a commit and that's by design. The workflow assumes you make your changes locally and only stage for commit when you're ready to take a snapshot of your work. We have some of the more advanced commands that talk about how to "undo" a commit slated for tomorrow's class. Hang tight!
+
+lkirvay @lkirvay Apr 26 13:26
+would we lose the untracked files?
+
+SurendraJambe @SurendraJambe Apr 26 13:26
+I have a question: If all the changes are in local until they are committed, what will happen if local machine crashes?
+
+Hector Alfaro @halfaro1 Apr 26 13:30
+@SurendraJambe the changes are local until you do a git push which Patrick is covering now, so those changes would be kept as long as there's no issues with the hard drive itself
+
+rlaflin @rlaflin Apr 26 13:31
+Can you clarify between master and origin?
+
+Hector Alfaro @halfaro1 Apr 26 13:32
+@lkirvay the file would follow you to the other branch as an unstaged change
+@rlaflin master is the branch we'd like to push to, in this case you should push to your own branch, origin is a name for the remote, which is the repository you cloned from stored on github
+
+garyl553 @garyl553 Apr 26 13:34
+I got permission issue.
+
+Hector Alfaro @halfaro1 Apr 26 13:34
+@garyl553 let me check if you're a collaborator
+
+rlaflin @rlaflin Apr 26 13:34
+Getting this: fatal: 'rl_hello_world' does not appear to be a git repository
+fatal: Could not read from remote repository.
+Please make sure you have the correct access rights
+and the repository exists.
+
+lkirvay @lkirvay Apr 26 13:35
+why is push first, and pull after that?
+
+Hector Alfaro @halfaro1 Apr 26 13:35
+@garyl553 did you comment on the collaborator issue? it is here: githubteacher/special-broccoli#2
+
+lkirvay @lkirvay Apr 26 13:35
+i thought pull was first?
+
+Hector Alfaro @halfaro1 Apr 26 13:35
+@lkirvay Patrick is covering it now )
+
+SurendraJambe @SurendraJambe Apr 26 13:36
+When I attempt to Git Push, it asks for authentication, I enter my email but it terminal does not allow me to enter password
+
+Hector Alfaro @halfaro1 Apr 26 13:36
+@rlaflin may I see the command that led to that?
+
+garyl553 @garyl553 Apr 26 13:36
+issue #5 is me
+
+Hector Alfaro @halfaro1 Apr 26 13:36
+@SurendraJambe it may not show you the password but it will be typing it, hit enter when you're finished
+
+rlaflin @rlaflin Apr 26 13:36
+MTVL11fe1af9d-3:special-broccoli ronl170$ git push rl_hello_world
+
+Hector Alfaro @halfaro1 Apr 26 13:37
+@garyl553 thanks, please comment on issue #2 instead
+
+garyl553 @garyl553 Apr 26 13:37
+ok
+
+Hector Alfaro @halfaro1 Apr 26 13:38
+try now, @garyl553
+@lkirvay the syntax for git push should be: git push -u origin <your-branch-name>
+
+lkirvay @lkirvay Apr 26 13:39
+why is that not what he said to do?
+didn't it work?
+
+garyl553 @garyl553 Apr 26 13:39
+working now, thanks.
+
+Hector Alfaro @halfaro1 Apr 26 13:39
+@garyl553 :+1:
+@lkirvay the first time you push a local branch to the remote you'll need to use the complete command, once the remote has been set up the command can be shortened with git push
+
+rlaflin @rlaflin Apr 26 13:41
+I'm OK now for push. I forgot the origin part.
+
+Hector Alfaro @halfaro1 Apr 26 13:43
+@rlaflin for now, as long as you can use the command that's all you need to know, you can review the video for a thorough explanation of origin :)
+
+lkirvay @lkirvay Apr 26 13:43
+but it looks like my push did work
+
+Hector Alfaro @halfaro1 Apr 26 13:44
+@lkirvay it did :clap: :balloon:
+
+lkirvay @lkirvay Apr 26 13:44
+ok so what is all that about the -u, I don't know what you are telling me
+
+Hector Alfaro @halfaro1 Apr 26 13:45
+@lkirvay you'll be able to review that on the video, but in short it sets the upstream branch, I don't want to keep you behind :)
+
+navinjoy @navinjoy Apr 26 13:46
+whats the progress bar in pull requests?
+
+Hector Alfaro @halfaro1 Apr 26 13:47
+Where at @navinjoy ?
+
+navinjoy @navinjoy Apr 26 13:48
+i think they are referred to the at mentions and shows the progress bar next to pull request
+
+Hector Alfaro @halfaro1 Apr 26 13:50
+Screen Shot 2016-04-26 at 1.50.01 PM.png
+:point_up: the 2 of 4? @navinjoy
+
+navinjoy @navinjoy Apr 26 13:51
+thats right
+
+Hector Alfaro @halfaro1 Apr 26 13:51
+ah! When there's a checklist in Markdown format on an Issue or a Pull Request, GitHub summarizes for you how many of the items have been checked by including the progress bar
+When I took that screenshot, Patrick had checked off 2 of the 4 items on the checklist
+ Screen Shot 2016-04-26 at 1.52.22 PM.png
+:point_up_2: he's checked 3 items now, so the progress bar would say 3 of 4
+
+Hector Alfaro @halfaro1 Apr 26 14:03
+We're currently on break. If you have any questions you'd like Patrick to cover when we return, feel free to send them here.
+
+Andrew Chan @andrewchanintuit Apr 26 14:04
+Sorry but I missed the last instructions on how to add a comment to the file that the person below me added. Thank you.
+
+lkirvay @lkirvay Apr 26 14:05
+i still don't get why, initially you show the branch diagram, and you say we do a PULL first
+but then in doing it, you had us do PUSH first before the PULL
+I don't understand push/pull I think
+
+Hector Alfaro @halfaro1 Apr 26 14:08
+@andrewchanintuit if you go to the pull requests page (https://github.com/githubteacher/special-broccoli/pulls) locate the pull request directly below yours and comment on your colleague's for practice, the idea is to get comfortable navigating the pull request and its tabs (conversation, commits, and files changed)
+
+SurendraJambe @SurendraJambe Apr 26 14:09
+Hi, what is the primary motivation for pull requests? To collaborate and get the review of changes from other colleagues? If no pull requests are done, one can still push/commit changes with no impact?
+
+Hector Alfaro @halfaro1 Apr 26 14:09
+@lkirvay I understand, I remember struggling with that as well when I was learning how to use git. I'll ask Patrick to cover it but here's another way to explain it so that you have two sources:
+@lkirvay a git push is a command that pushes your local commits to the repository that is hosted on some remote server, a git pull is a command that integrates changes from a remote repository, a pull request is a mechanism by which we propose a change to our repository, perhaps we're proposing the changes from our personal branch to be merged into the master branch
+@SurendraJambe :+1: correct on the motivation for pull requests. If no pull request is done, one can commit directly to their own branch and a master branch (depending on how the repository is set up), but it's all tracked. It's good etiquette and core to GitHub Flow to implement changes via pull requests.
+
+kp3370 @kp3370 Apr 26 14:13
+how many pull requests can one have open at one time? and how are they related to their underlying branch?
+
+SurendraJambe @SurendraJambe Apr 26 14:13
+thanks @halfaro1 another question: If I have already committed to the master branch then what is the purpose of the pull request?
+
+Hector Alfaro @halfaro1 Apr 26 14:14
+@kp3370 there's no limit to open pull requests that I know of, I can save the question for Patrick he may know. A pull request is related to the underlying branches (in its simplest form) in that a pull request proposes a merge between two branches
+@SurendraJambe I love your questions! A pull request would ideally take place before committing directly to master. The workflow should be to create your own branch as a safe place to test out your changes, and propose that the changes to your branch be merged via a Pull Request
+@SurendraJambe there are mechanisms (such as protected branches or practices in place as part of your internal process) that could protect against changes directly to master
+@SurendraJambe but git itself does not require a pull request, it is a GitHub specific feature
+
+kp3370 @kp3370 Apr 26 14:18
+@halfaro1 right. forgot how pull requests were created... you select the source and destination there.
+
+SurendraJambe @SurendraJambe Apr 26 14:18
+@halfaro1 Cool, now I understand better. So the classic scenario may be a developer push the change to the personal branch but creates a pull request so that other senior developer can review and push to the master
+
+Hector Alfaro @halfaro1 Apr 26 14:19
+@SurendraJambe :+1:
+@kp3370 you've got it :)
+
+garyl553 @garyl553 Apr 26 14:28
+what's the different between origin/HEAD and origin/master?
+
+Hector Alfaro @halfaro1 Apr 26 14:29
+@garyl553 it shows us where HEAD is pointing (that's a pointer). We'll cover that during tomorrow's session when we're chatting about some advanced git commands.
+
+lkirvay @lkirvay Apr 26 14:33
+someone closed my pull request
+why did you do that @rsomcio
+
+Hector Alfaro @halfaro1 Apr 26 14:33
+@lkirvay oh no! let me take a look :)
+
+lkirvay @lkirvay Apr 26 14:33
+no i reopened it so i am ok now
+
+Hector Alfaro @halfaro1 Apr 26 14:34
+@lkirvay glad to hear it, it's a good example of the pros (and sometimes cons) of GitHub's collaborative nature
+if we're comparing this to real world, @rsomcio could merge something in for you if you happen to be out of office, but if it really is a mistake you'd get a notification and you could revert the change
+
+Hector Alfaro @halfaro1 Apr 26 14:40
+@lkirvay don't forget to delete your branch now that it's been merged in
+
+rlaflin @rlaflin Apr 26 14:42
+What does this mean? I did a merge and deleted the branch:
+MTVL11fe1af9d-3:special-broccoli ronl170$ git checkout master
+rl_hello_world.cc: needs merge
+error: you need to resolve your current index first
+
+rayb354 @rayb354 Apr 26 14:44
+@halfaro1 Where can I find the .png files that Patrick was showing?
+
+lkirvay @lkirvay Apr 26 14:45
+how to delete the branch?
+
+Hector Alfaro @halfaro1 Apr 26 14:45
+@rayb354 they're from the open source book Pro Git https://git-scm.com/book/en/v2
+
+thomp812 @thomp812 Apr 26 14:46
+git branch -d <branch-name>
+
+Hector Alfaro @halfaro1 Apr 26 14:46
+@lkirvay if you go to your closed pull request you can delete the branch from the web UI
+
+thomp812 @thomp812 Apr 26 14:46
+make sure the <branch-name> isn't your current branch or it'll complain
+
+Ray Somcio @rsomcio Apr 26 14:46
+@lkirvay oops sorry.
+
+Hector Alfaro @halfaro1 Apr 26 14:47
+@rlaflin it looks like there's a merge conflict, we'll be covering those tomorrow, too
+We're entering the Q&A period so if you'd like to ask any general questions now's the time :)
+
+rayb354 @rayb354 Apr 26 14:49
+@halfaro1 When using Intellij for develoment, do you recommend using the Git intellij plugin? Or do you recommend a separate GIt client like SourceTree or Git Tower?
+
+Hector Alfaro @halfaro1 Apr 26 14:51
+@rayb354 I haven't used it but I'll pass it on to Patrick maybe he has. I will say though that the GitHub client allows access to Pull Requests which many other git clients do not (remember: a pull request is a github-specific thing) so it depends on the level of integration you're looking for
+I looked up plugins for IntelliJ and it looks like there's both git and GitHub plugins
+
+kp3370 @kp3370 Apr 26 14:57
+is there a tool to keep github and my local system in sync? for example, i want to have my local branches auto-deleted when i delete them on github...
+i don't like having to do that work in both places.... especially since it's so easy to forget.
+
+Hector Alfaro @halfaro1 Apr 26 15:01
+Thanks @/all for the great participation! :+1:
+
+samitintuit @samitintuit Apr 26 15:02
+Thank you! very helpful! looking forward to tomorrow's session
+
+kp3370 @kp3370 Apr 26 15:02
+thanks guys
+
+garyl553 @garyl553 Apr 26 15:02
+Thanks.
+
+SurendraJambe @SurendraJambe Apr 26 15:03
+@halfaro1 Hi: could you please provide git commands and the video of the lecture?
+
+Hector Alfaro @halfaro1 Apr 26 15:03
+@SurendraJambe the git commands will be posted in the class repo by @patrickmckenna and the video will be sent to you within a few days of the class ending
+
+SurendraJambe @SurendraJambe Apr 26 15:04
+thanks, have a nice day!
+
+Hector Alfaro @halfaro1 Apr 26 15:05
+This room is inactive until Day 2 of GitHub for Developers on Wed, Apr 27 at 9am PDT. If you have questions in the meantime, please visit our class repo or drop us a line via services@github.com. See you tomorrow :sunrise:
+
+Hector Alfaro @halfaro1 12:03
+Welcome to Day 2 of GitHub for Developers! This room is open for questions and conversation :)
+
+navinjoy @navinjoy 12:04
+Hi Hector
+I havent received any mail for the github school
+ok got it
+done
+
+Hector Alfaro @halfaro1 12:05
+@navinjoy hi :wave: do you see a banner on this site? https://github.com/githubschool
+awesome :+1:
+
+navinjoy @navinjoy 12:06
+thanks
+
+vvora @vvora 12:09
+hello hector..can you post webinar link? I lost it somehow..
+
+Hector Alfaro @halfaro1 12:09
+Sure one sec @vvora
+@vvora https://attendee.gotowebinar.com/register/4141191070219256834
+Or you can go to gotowebinar.com directly and use Webinar ID# 153-046-419
+
+lkirvay @lkirvay 12:11
+please wait a minute to let us do it
+
+vvora @vvora 12:12
+thanks..
+
+lkirvay @lkirvay 12:12
+what is the url
+
+Andrew Chan @andrewchanintuit 12:12
+git clone https://github.com/githubschool/special-broccoli.git
+
+lkirvay @lkirvay 12:13
+instructor please wait to let people do these
+
+Hector Alfaro @halfaro1 12:13
+Thanks @andrewchanintuit !
+@lkirvay in general, you can get the URL for any repository on the repo web site near the right
+
+lkirvay @lkirvay 12:13
+got that one
+but he obscures the cmd window
+
+Hector Alfaro @halfaro1 12:13
+Screen Shot 2016-04-27 at 12.12.33 PM.png
+
+lkirvay @lkirvay 12:13
+and keeps talking
+
+Hector Alfaro @halfaro1 12:14
+@lkirvay the video for both today and yesterday's session will also be available after class so that you can follow along and pause if you'd like to sit back and listen today, but of course I'll share your feedback :+1:
+
+lkirvay @lkirvay 12:15
+maybe he can find a way to not hide the whole cmd window
+
+rlaflin @rlaflin 12:15
+i cannot remove my special-brocolli from yesterday apparently due to it having a merge conflict. the rm call does not work.
+
+Hector Alfaro @halfaro1 12:16
+@lkirvay understood, it may also help to know that Patrick will be posting his entire history of commands once the class is over
+@rlaflin I would suggest cloning to a new directory, are you familiar with how to do this on the command line?
+
+vvora @vvora 12:16
+I get this when cloning: fatal: Not a git repository (or any of the parent directories): .git
+on git status
+
+lkirvay @lkirvay 12:17
+me too i got that samemsg
+same msg
+
+Hector Alfaro @halfaro1 12:17
+@vvora and @lkirvay may I see the command you are using please?
+
+vvora @vvora 12:17
+vvora@ 09:15:29 ~> git clone git@github.com:githubschool/special-broccoli.git
+fatal: destination path 'special-broccoli' already exists and is not an empty directory.
+vvora@ 09:16:20 ~> git status
+fatal: Not a git repository (or any of the parent directories): .git
+
+rlaflin @rlaflin 12:18
+Can we pause and get all peoples repository working before we move on?
+
+lkirvay @lkirvay 12:18
+yes please !
+
+vvora @vvora 12:18
+got it
+I need to cd into special-broccoli
+and then do git status
+
+Hector Alfaro @halfaro1 12:19
+Alright folks, here it is :) @vvora @rlaflin and @lkirvay
+rm -rf special-broccoli will remove yesterday's repository
+git clone <url> will clone the repository to your present working directory
+enter the repo directory with the cd <repo-name> command
+type git status to ensure you're looking at the git repo
+
+lkirvay @lkirvay 12:22
+i got it
+
+Hector Alfaro @halfaro1 12:23
+:clap: @lkirvay
+
+rlaflin @rlaflin 12:23
+I'm good. Thanks.
+
+Hector Alfaro @halfaro1 12:23
+:balloon: :sparkles: @rlaflin
+how are you doing @vvora ?
+
+vvora @vvora 12:24
+ya i got it..
+thnx
+
+Hector Alfaro @halfaro1 12:24
+:+1:
+
+Hector Alfaro @halfaro1 12:41
+Reminder: git commit -am "<message>" is equivalent to:
+git add -A
+git commit -m "<message>"
+
+navinjoy @navinjoy 12:41
+how can we do a diff of a file that was part of multiple commits but want to compare for 2nd and 5th commit
+
+kp3370 @kp3370 12:41
+is there a way to abort a commit from within the editor?
+
+navinjoy @navinjoy 12:42
+and can we see a revision history of a file?
+
+Hector Alfaro @halfaro1 12:42
+@kp3370 great question, we'll see that as we look into more complex use cases, but in short you'll be able to compare against any SHA hash which is the unique identifier of each commit
+@navinjoy good question, git log has a lot of options which we can discuss in a bit
+
+navinjoy @navinjoy 12:44
+okay.. thank you
+
+kp3370 @kp3370 12:44
+remote: Permission to githubschool/special-broccoli.git denied to kp3370.
+fatal: unable to access 'https://github.com/githubschool/special-broccoli.git/': The requested URL returned error: 403
+
+samitintuit @samitintuit 12:44
+looks like I have permission denied
+
+vvora @vvora 12:44
+me too
+vvora@ 09:43:57 ~/special-broccoli> git push -u origin vv-hello-mundo
+remote: Permission to githubschool/special-broccoli.git denied to vvora.
+fatal: unable to access 'https://github.com/githubschool/special-broccoli.git/': The requested URL returned error: 403
+
+samitintuit @samitintuit 12:44
+remote: Permission to githubschool/special-broccoli.git denied to samitintuit.
+fatal: unable to access 'https://github.com/githubschool/special-broccoli.git/'
+
+navinjoy @navinjoy 12:45
+whats the push -u option for i missed it
+
+Hector Alfaro @halfaro1 12:45
+@kp3370 @samitintuit @vvora did you join the organization?
+do you see a banner on this site? https://github.com/githubschool
+
+vvora @vvora 12:46
+what type of banner?
+I see special-broccoli on that site
+
+Hector Alfaro @halfaro1 12:46
+@navinjoy the -u option sets the upstream repository, and origin is an alias for the URL of where the git repo lives
+
+navinjoy @navinjoy 12:47
+ok
+
+vvora @vvora 12:47
+joined..thanks
+
+samitintuit @samitintuit 12:47
+how to join?
+
+Hector Alfaro @halfaro1 12:48
+Screen Shot 2016-04-27 at 12.47.47 PM.png
+@kp3370 @vvora @samitintuit :point_up: you should see this if you visit github.com/githubschool
+
+Andrew Chan @andrewchanintuit 12:49
+@halfaro1 - What's the terminal command to set my Github username and password again? WHen I pushed, I had to type in username/pwd. Thanks
+
+samitintuit @samitintuit 12:49
+got it, now joined
+
+Hector Alfaro @halfaro1 12:50
+@andrewchanintuit this might help: https://help.github.com/articles/caching-your-github-password-in-git/
+
+Andrew Chan @andrewchanintuit 12:51
+Thanks
+
+lkirvay @lkirvay 12:52
+again it is not the right question about pace
+the thing is that he obscures the cmd screen and keeps talking
+needs to show the cmds on the side
+
+rlaflin @rlaflin 12:53
+Agreed with @lkirvay
+
+Hector Alfaro @halfaro1 12:53
+@lkirvay I'll share that feedback
+
+kp3370 @kp3370 12:55
+i agree with @lkirvay ... also he's using different terminology between what he says and his slides... makes it a little difficult to translate when all this is brand new
+i.e. are snapshots analagous to branches or commits?
+
+Hector Alfaro @halfaro1 12:57
+@kp3370 a snapshot is analogous to a commit, but not so much a branch. A branch is analogous to a copy of where we are branching from at the time the branch was made.
+@/all going to take a quick break in chat as well, folks. Feel free to queue up your questions we'll cover them when we resume in about 5 minutes.
+
+garyl553 @garyl553 13:00
+Hi Hector, how do I rollback one commited file before pushing to origin?
+
+lkirvay @lkirvay 13:01
+in our examples we are showing just simple files in one dir
+in real life there are directories and file types that we would want to exclude from the git commits/adds/etc
+is there a way to exclude parts of the directory structure or specific file types?
+some git --global thing
+
+Patrick McKenna @patrickmckenna 13:02
+@lkirvay yes, absolutely, using what’s called a .gitignore file. We’ll cover that
+@garyl553 we’ll be going over techniques to rewrite history in just a bit
+
+garyl553 @garyl553 13:03
+cool, thx
+
+Hector Alfaro @halfaro1 13:05
+And I'm back now :smile: looks like Patrick jumped in which was great. Yes, both of these questions you asked are on queue to be covered. Thanks!
+
+navinjoy @navinjoy 13:08
+will the class also cover 'fork' ?
+
+Hector Alfaro @halfaro1 13:09
+@navinjoy the "fork and pull" model is a little different from the branching model that we're showing, but much of the same applies
+
+navinjoy @navinjoy 13:09
+ok...
+pull request steps we have to do only via UI or we can do via command line too?
+
+Hector Alfaro @halfaro1 13:10
+@navinjoy I'll make sure Patrick describes the differences, but in short forking is reserved when the repository owner doesn't allow contributor access to others, so as an individual, you'd fork from a source repo, and it'd be all yours, you'd suggest changes back to the original repo via a pull request still
+@navinjoy great questions! pull requests are not a part of git, only GitHub, so they must be done via the UI
+
+Ray Somcio @rsomcio 13:10
+When will the videos available? I won't be able to fully attend todays sessions
+
+navinjoy @navinjoy 13:10
+okay..
+
+Hector Alfaro @halfaro1 13:11
+@rsomcio will be emailed to you within a couple of days
+
+Ray Somcio @rsomcio 13:11
+Thank you
+
+rayb354 @rayb354 13:15
+@halfaro1 Can Patrick talk a bit about tagging? I'm sure we'll be using tags to associate commits with release versions of our code.
+
+Hector Alfaro @halfaro1 13:15
+@rayb354 I'll pass it along, it will likely be between breaks or near the end, though
+
+thomp812 @thomp812 13:25
+hmm... not seeing those branches
+[thomp812@MTVL128a3ed3c ~/git-class/special-broccoli (master)] $ git branch -a
+master
+top-hello-monde
+remotes/origin/HEAD -> origin/master
+remotes/origin/master
+remotes/origin/top-hello-monde
+top-hello-monde shows up green
+others red
+any idea what I'm doing wrong?
+
+Hector Alfaro @halfaro1 13:26
+@thomp812 did you do a git pull previously?
+
+thomp812 @thomp812 13:26
+thought so - maybe I mistyped..
+aha - "git plul" - more haste, less speed
+
+Hector Alfaro @halfaro1 13:27
+:clap: :wink:
+
+thomp812 @thomp812 13:30
+argh- now how to catch up when the command window just disappeared?
+
+Hector Alfaro @halfaro1 13:30
+@thomp812 do you have a merge conflict yet? are you at the fixing step?
+
+thomp812 @thomp812 13:31
+nope missed all of those because I was recovering from the botched get pull
+git plul :wink:
+
+Hector Alfaro @halfaro1 13:33
+@thomp812 I see. Well conceptually what is happening is that we have a merge conflict because git recognizes that there have been commits since we last pulled and now and some of those changes conflict with our own.
+
+thomp812 @thomp812 13:33
+sure- understood - just missed the whole mess of commands to get to the 'merge conflict state'
+
+Hector Alfaro @halfaro1 13:34
+@thomp812 I recommend using the video to catch up, I'll see if Patrick has a second to just run through the list of commands he used to perform each of his steps
+This is good review for all :smile:
+
+vvora @vvora 13:37
+I am getting: HEAD detached at origin/master
+what do I do?
+
+Hector Alfaro @halfaro1 13:38
+@vvora can you show me your last few commands that led to that?
+
+vvora @vvora 13:39
+vvora@ 10:36:22 ~/special-broccoli> git checkout origin/master
+Note: checking out 'origin/master'.
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+git checkout -b new_branch_name
+HEAD is now at 0caf583... Merge pull request #42 from githubschool/nkj.hello-world
+vvora@ 10:36:33 ~/special-broccoli> git status
+HEAD detached at origin/master
+
+Hector Alfaro @halfaro1 13:39
+try git checkout master
+
+garyl553 @garyl553 13:40
+is there any good git merging tool?
+
+Andrew Chan @andrewchanintuit 13:41
+@garyl553 Perforce diff is often recommended
+
+vvora @vvora 13:41
+back on master..
+can you post all the commands in sequence for merge?
+
+Hector Alfaro @halfaro1 13:42
+so now you can catch up by using:
+git pull
+git branch -a
+git branch --merged master
+git branch -d <yourbranch>
+@vvora that should catch you up, if not, try to follow along with the video when you receive it
+
+kp3370 @kp3370 13:44
+this is like coding in assembly... are there any good tools to simplify these processes... particularly one that makes it clear of the state of your dev environment with the repo?
+in particular, if there are a lot of conflicts with multiple other branches, resolving all the changes can make your head spin doing things manually like this...
+
+lkirvay @lkirvay 13:45
+what about subdirectories?
+
+Hector Alfaro @halfaro1 13:46
+@kp3370 we're looking at some deep theory behind git, most of the time you'll be simply adding files, making commits, and push/pulling which most tools that integrate with IDEs can do, or GitHub Desktop as well.
+
+thomp812 @thomp812 13:46
+Does there have to be a .gitignore in every folder, or just on the root folder?
+
+lkirvay @lkirvay 13:46
+i mean how to exclude a subdir
+
+kp3370 @kp3370 13:47
+i work on a couple large projects that have exactly the problem i described.
+
+thomp812 @thomp812 13:47
+root folder I'd expect
+
+kp3370 @kp3370 13:47
+i'm going to have to live in that world and it doesn't sound very pleasant...
+there must be a tool to allow bulk management of merges, no?
+
+Hector Alfaro @halfaro1 13:49
+@kp3370 there's process that can be built around the way the tool works. For example, at GitHub, we (individuals) are responsible for resolving possible merge conflicts that might be introduced by our change. But at other organizations we've seen folks be in charge of branches and manage the merging/conflicts that might occur
+
+kp3370 @kp3370 13:49
+we use perforce now and all this is very straightforward there... but we're moving as an organization to git and this seems like a giant step backward.
+
+navinjoy @navinjoy 13:49
+how to diff one specific file in any 2 commits
+
+lkirvay @lkirvay 13:49
+that is a terrible view for doing difff like that
+is there a better way to diff
+side by side is very helpful
+
+kp3370 @kp3370 13:51
+i understand the benefits of a distributed source control system, but this seems like it's way behind the curve from a useability perspective... it's making my job a lot harder instead of easier.
+
+rayb354 @rayb354 13:52
+@lkirvay @navinjoy The Git plugin of IntelliJ let's you do diff in a graphical way, very similar to Perforce diff.
+
+navinjoy @navinjoy 13:52
+any open source diff tools? i beleive intelliJ is a paid one
+
+rayb354 @rayb354 13:53
+Diffmerge is a good one
+if you're using Mac, that is.
+Not sure if there's a Windows version
+
+Patrick McKenna @patrickmckenna 13:56
+ Does there have to be a .gitignore in every folder, or just on the root folder?
+@thomp812 you only need one, at the root level
+
+Hector Alfaro @halfaro1 13:56
+@lkirvay the web UI shows side by side as well as inline diffs
+
+Patrick McKenna @patrickmckenna 13:56
+how to diff one specific file in any 2 commits
+@navinjoy the syntax is similar to that for git log: you’d type git diff <commit-a> <commit-b> -- <file>
+
+Hector Alfaro @halfaro1 14:05
+Here's the link to Pro Git: https://git-scm.com/book/en/v2
+We haven't forgotten about the questions regarding Forking or Tagging. We'll cover them near the end.
+In this last hour we'll be covering how to rewrite history which is a fairly complex topic so don't be too concerned if it doesn't make sense right away.
+pro tip: the command git checkout -b <branch-name> is a shortcut for two commands (1) git branch <branch-name> and (2) git checkout <branch-name>
+
+Hector Alfaro @halfaro1 14:13
+git revert is the safest way to undo a commit, since it is additive, and preserves the history of commits before the revert
+
+kp3370 @kp3370 14:15
+since we've deleted our branch after our commit, what happens to our changes it we want to rework them and recommit them?
+
+Hector Alfaro @halfaro1 14:16
+@kp3370 when you merge, the history of commits on that branch also get merged into master, so they'll live on master and you'll be able to revert to any of them
+
+kp3370 @kp3370 14:16
+ok
+
+Hector Alfaro @halfaro1 14:16
+@kp3370 that's why when you see the pull request on screen in the Web UI it shows the history of commits, since we're proposing all those commits be merged into master :+1:
+
+Hector Alfaro @halfaro1 14:39
+Hi folks, this might be a good way to see different way to the 3 git reset options: https://training.github.com/kit/modules/CONT-CLI-19_Resetting-history.html
+
+Hector Alfaro @halfaro1 14:51
+@/all if you have any lingering questions now would be a good time :smile:
+
+thomp812 @thomp812 14:52
+I expect I need to go try this stuff out in anger in order to come up with a decent set of questions
+is there a way of asking questions later?
+
+Hector Alfaro @halfaro1 14:52
+lol @thomp812 sure, you can email us at services@github.com
+
+thomp812 @thomp812 14:52
+cool
+
+Hector Alfaro @halfaro1 14:52
+it's a shared inbox, both Patrick and I will receive a notification
+
+navinjoy @navinjoy 14:56
+whats the diff between tags and releases
+ok
+
+Hector Alfaro @halfaro1 14:57
+:thumbsup:
+
+Patrick McKenna @patrickmckenna 14:57
+https://www.surveymonkey.com/r/H7VPG7B
+
+navinjoy @navinjoy 14:58
+can we save the chat logs?
+
+kp3370 @kp3370 14:58
+thanks guys. good class.
+
+navinjoy @navinjoy 14:58
+Thank you.. class was good. +1
+
+Hector Alfaro @halfaro1 14:58
+@navinjoy I'm not sure our use of Gitter is pretty recent but I'll see if I can save it and post it to the class repo. You can certainly save it also
+
+Andrew Chan @andrewchanintuit 14:58
+Thank you very much @patrickmckenna and @halfaro1
+
+Patrick McKenna @patrickmckenna 14:59
+Thanks all!
+
+Hector Alfaro @halfaro1 15:02
+This room is no longer active. Please visit https://training.github.com/, https://help.github.com/, or email services@github.com with further questions. You will be sent a recording of the classes soon.
