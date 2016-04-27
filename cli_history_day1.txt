@@ -1,0 +1,62 @@
+set-terminal-title.sh intuit
+git --version
+git config --global user.name "Patrick McKenna"
+git config --global user.email patrickmckenna@github.com
+git config --global core.editor "sublime -n -w"
+git config --global fetch.prune true
+git config --global --list
+git clone git@github.com:githubteacher/special-broccoli.git
+cd special-broccoli/
+ls
+ls -al
+git branch
+git branch pm-hello-world
+git branch
+ls -al
+git checkout pm-hello-world 
+touch pm_hello_world.cc
+ls
+git status
+git add pm_hello_world.cc
+git status
+git commit
+git config --global --get fetch.prune 
+ls
+ls -al
+git checkout master 
+ls
+git checkout pm-hello-world 
+ls
+git remote
+git remote show origin
+git push origin
+git push origin pm-hello-world 
+git status
+ls
+sublime pm_hello_world.cc 
+git status
+git commit -a -m "demo responding to feedback from a pull request"
+git branch --set-upstream-to=origin/pm-hello-world 
+git push
+git branch
+git branch -r
+git branch -a
+git pull
+git branch
+git branch -a
+git checkout master 
+ls
+git pull
+git staus
+git status
+git pull
+git branch
+git branch -d pm-hello-world 
+git pull
+git log
+git log -2
+git log --oneline -2
+git log --oneline --decorate -2
+git log --oneline --decorate --graph
+git config --global alias.lg "log --oneline --graph --decorate"
+git lg
