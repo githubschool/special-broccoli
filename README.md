@@ -17,3 +17,4 @@ People sometimes ask about the Terminal.app theme they see on screen. It is [oce
 ```bash
 export PS1="\[\$(tput bold)\]\[\$(tput setaf 6)\]\w\[\$(tput setaf 3)\]\$(git branch 2>/dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/')\[\$(tput setaf 6)\] > \[\$(tput sgr0)\]"
 ```
+lorem ipsum
