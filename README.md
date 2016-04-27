@@ -19,3 +19,4 @@ export PS1="\[\$(tput bold)\]\[\$(tput setaf 6)\]\w\[\$(tput setaf 3)\]\$(git br
 ```
 More Tips
 you can use the compare view on github to view diffs
+line one
